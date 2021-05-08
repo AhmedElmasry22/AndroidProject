@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "294650053701",
+    "firebase_url": "https://markshandler-f422e.firebaseio.com",
+    "project_id": "markshandler-f422e",
+    "storage_bucket": "markshandler-f422e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294650053701:android:b8433d0e033e606489cf2c",
+        "android_client_info": {
+          "package_name": "com.example.markshandler3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294650053701-fop3jtjqvlamn2ibdckt1fqs6m4jlrg3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.markshandler3",
+            "certificate_hash": "b2fac226dc3d63851c2d3ed5ba41157151c88fa1"
+          }
+        },
+        {
+          "client_id": "294650053701-ru3mok86argjjg60bgmtdb8t93vhsskp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9h8627BG1NurixFDNUYf7SJtk5jV-Qbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294650053701-ru3mok86argjjg60bgmtdb8t93vhsskp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

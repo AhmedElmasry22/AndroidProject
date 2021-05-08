@@ -19,13 +19,11 @@ import java.util.List;
 public class AdapterMostPopularTv extends RecyclerView.Adapter<AdapterMostPopularTv.Holder_detals>{
     Context context;
     List<ModelMovies.TvShowsBean> list;
-
+    OnItemClickListner listener;
 
     public interface OnItemClickListner{
         void OnItemCLick(int postion);
     }
-
-    OnItemClickListner listener;
     public void setOnItemClickListner(OnItemClickListner listener){
         this.listener=listener;
 

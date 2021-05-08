@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/txtuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="Enter id number"
+        android:textSize="20sp"
+        />
+
+    <Button
+
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="login"
+        android:background="@drawable/button_rectangle"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        />
+
+    <Button
+
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Chat"
+        android:background="@drawable/button_rectangle"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+
+
+</LinearLayout>

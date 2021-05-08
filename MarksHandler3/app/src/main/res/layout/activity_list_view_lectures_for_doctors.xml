@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context=".DoctorPackage.ListPackageDoctor.ListViewLecturesForDoctors"
+        android:orientation="vertical"
+        android:weightSum="15"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/green"
+            android:text="Lectures"
+            android:textSize="30sp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.02"
+            android:background="@color/green"
+            android:layout_marginBottom="10dp"
+            />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="13"
+            android:id="@+id/listviewstudentshasbeenattended"
+            >
+
+        </ListView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/switch_background"
+            android:layout_margin="15dp"
+            android:text="Remove all"
+            android:textColor="@android:color/white"
+            android:id="@+id/remove_all"
+            ></Button>
+
+    </LinearLayout>

@@ -14,6 +14,7 @@ import com.squareup.picasso.Picasso;
 
 
 public class ViewPagerAdapter extends PagerAdapter {
+
     private Context context;
     private String[] imageUrls;
 
@@ -50,4 +51,5 @@ public class ViewPagerAdapter extends PagerAdapter {
     public void destroyItem( ViewGroup container, int position,  Object object) {
         container.removeView((View) object);
     }
+
 }

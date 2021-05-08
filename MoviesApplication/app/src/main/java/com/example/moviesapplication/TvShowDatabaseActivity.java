@@ -30,14 +30,12 @@ public class TvShowDatabaseActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tv_show_database);
+
         recyclerView=findViewById(R.id.recycle_database);
         recyclerView.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(this);
 
         recyclerView.setLayoutManager(mLayoutManager);
-
-
-
 
 
         final MovieDatabase postsDatabase = MovieDatabase.getInstance(this);

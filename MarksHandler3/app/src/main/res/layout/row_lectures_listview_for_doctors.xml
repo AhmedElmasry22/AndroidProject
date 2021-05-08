@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/s"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="7"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Name"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            ></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/thenameofstudent"
+            android:layout_margin="5dp"
+            android:layout_weight="4"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="7"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            ></TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="ID"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/theidofstudent"
+            android:layout_margin="5dp"
+            android:layout_weight="4"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttontodelet"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/red_button"
+        android:text="Delete"
+        android:textColor="@android:color/white"
+        android:textAlignment="center" />
+
+</LinearLayout>

@@ -19,8 +19,10 @@ import io.reactivex.Flowable;
 import io.reactivex.Single;
 
 public class MostPopularTVShowsViewModel extends AndroidViewModel {
+
     public RepositoryPopularTv repositoryPopularTv;
     MovieDatabase movieDatabase;
+
     public MostPopularTVShowsViewModel(Application application){
         super(application);
         if (repositoryPopularTv==null) {
@@ -33,6 +35,7 @@ public class MostPopularTVShowsViewModel extends AndroidViewModel {
         return repositoryPopularTv.getpopularTv(page);
 
     }
+
     public Completable addtvShow(List<ModelMovies.TvShowsBean> tvShowsBean){
         return movieDatabase.MovieDao().insetTv(tvShowsBean);
 

@@ -12,6 +12,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class RepositoryPopularTv {
+
    private ApiService apiService;
     MutableLiveData<ModelMovies> data=new MutableLiveData<>();
 

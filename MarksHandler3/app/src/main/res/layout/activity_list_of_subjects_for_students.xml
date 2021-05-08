@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentPackage.ListPackageStudent.ListOfSubjectsForStudents"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:weightSum="15"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/green"
+        android:text=" Subjects"
+        android:textSize="30sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.02"
+        android:background="@color/green"
+        android:layout_marginBottom="10dp"
+        />
+    <ListView
+        android:id="@+id/list_student"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@android:color/white"
+            android:inputType="text"
+            android:linksClickable="false"
+            android:textColor="@color/grey"
+            android:hint="subject name"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/name_subject"
+            ></EditText>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@android:color/white"
+            android:inputType="text"
+            android:hint="subject code"
+            android:linksClickable="false"
+            android:gravity="center"
+            android:textColor="@color/grey"
+            android:layout_margin="5dp"
+            android:id="@+id/code_subject"
+            ></EditText>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="join"
+            style="blod"
+            android:id="@+id/join"
+            android:textColor="@android:color/white"
+            android:background="@color/green_light"
+            android:layout_margin="5dp"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

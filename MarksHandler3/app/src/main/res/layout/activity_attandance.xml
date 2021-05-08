@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentPackage.Attandance"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:weightSum="15"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/photo"
+        android:src="@drawable/student"
+        android:layout_margin="50dp"
+        ></ImageView>
+    <EditText
+        android:id="@+id/Attendance_code"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:hint="Attendance Code"
+        android:inputType="number"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="attend"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:padding="10dp"
+        android:id="@+id/Attend_button"
+        android:background="@drawable/button_rectangle"
+
+        />
+
+
+</LinearLayout>

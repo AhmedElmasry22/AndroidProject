@@ -6,5 +6,7 @@
     android:icon="@drawable/ic_baseline_remove_red_eye_24"
     app:showAsAction="always"
     android:id="@+id/show_database"
-    ></item>
+    >
+
+</item>
 </menu>

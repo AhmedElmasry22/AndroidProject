@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="purple">#9C27B0</color>
+    <color name="blue">#073DFF</color>
+    <color name="green">#2DDB0F</color>
+    <color name="green_light">#98FB98</color>
+    <color name="Red">#FC044B</color>
+    <color name="yellow">#FFC107</color>
+    <color name="black">#0A0808</color>
+    <color name="white">#D5C8C8</color>
+    <color name="grey">#747070</color>
+
+
+
+    <color name="halfWhite">#99ffffff</color>
+    <color name="whiteChocolate">#ece5dd</color>
+    <color name="chatBackground">#ECE5DD</color>
+    <color name="statusBackground">#F4F4F4</color>
+    <color name="grey_sixty">#606060</color>
+    <color name="privacyColor">#FFF5C4</color>
+    <color name="Transparent">#00000000</color>
+    <color name="iconGrey">#A9A9A9</color>
+</resources>

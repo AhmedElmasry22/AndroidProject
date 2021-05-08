@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activites.MainActivity"
+    android:orientation="vertical"
+    >
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activitydrawer"
+        tools:context=".Activites.MainActivity"
+        tools:openDrawer="start"
+        android:fitsSystemWindows="true"
+
+
+        >
+    </androidx.drawerlayout.widget.DrawerLayout>
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/frameLayout"
+        android:layout_above="@id/nabar"
+
+        />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nabar"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menuitem"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <!-- End Toolbar-->
+
+    <!-- beginning framlyaout-->
+
+</RelativeLayout>

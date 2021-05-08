@@ -26,6 +26,8 @@
        android:id="@+id/progress_movie_popular"
        android:visibility="visible"
 
-       ></ProgressBar>
+       >
+
+   </ProgressBar>
 
 </LinearLayout>

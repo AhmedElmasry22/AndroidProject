@@ -10,6 +10,7 @@ import retrofit2.http.Query;
 public interface ApiService {
     @GET("most-popular")
     Call<ModelMovies> getMostPopularTvShow(@Query("page") int page);
+
     @GET("show-details")
     Call<ModelMovieDetail> getMovieDetail(@Query("q") String tvShowId);
 }

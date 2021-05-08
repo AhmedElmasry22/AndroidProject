@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorPackage.AddSubject"
+    android:orientation="vertical"
+    android:weightSum="15"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/green"
+        android:text=" Subjects"
+        android:textSize="30sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.02"
+        android:background="@color/green"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/green"
+        android:hint="Enter subject name"
+        android:gravity="center"
+        android:id="@+id/subject_name"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:layout_margin="10dp"
+        android:hint="code of subject"
+        android:textSize="20sp"
+        android:textColor="@color/green"
+        android:gravity="center"
+        android:id="@+id/subject_code"
+
+        ></EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/green_light"
+        android:layout_gravity="center"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:gravity="center"
+        android:id="@+id/upload_subject"
+        android:textColor="@android:color/white"
+        android:text="upload subject"></Button>
+
+</LinearLayout>
