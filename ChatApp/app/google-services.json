@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "897899681981",
+    "firebase_url": "https://secand-f1daf.firebaseio.com",
+    "project_id": "secand-f1daf",
+    "storage_bucket": "secand-f1daf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897899681981:android:41b50ad07eaca583387fd4",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897899681981-4s3t97t4btgn2ja9gge191fp8nfcvc2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNKCsMjy7VtZ3Oq4Ytcbfx5OVnJPq01Jo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897899681981-4s3t97t4btgn2ja9gge191fp8nfcvc2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897899681981:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897899681981-4s3t97t4btgn2ja9gge191fp8nfcvc2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNKCsMjy7VtZ3Oq4Ytcbfx5OVnJPq01Jo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897899681981-4s3t97t4btgn2ja9gge191fp8nfcvc2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

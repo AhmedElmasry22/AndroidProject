@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResetPasswardActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHeight_percent=".07"
+        android:background="@color/purple_200"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:id="@+id/text_reset"
+
+        android:text="Reset Password"
+
+        >
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/edit_phone_reset_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_reset"
+        android:background="@drawable/join_button"
+        app:layout_constraintHeight_percent=".08"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint=" Enter Phone"
+        android:paddingLeft="2dp"
+
+
+
+        ></EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Answer the Following Security Question"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_phone_reset_activity"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/text_answer_question"
+        app:layout_constraintHeight_percent=".15"
+
+
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/edit_first_question_reset_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_answer_question"
+        android:background="@drawable/join_button"
+        app:layout_constraintHeight_percent=".08"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Where your parent met,first time?"
+        android:textSize="20sp"
+        ></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/edit_second_question_reset_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_first_question_reset_activity"
+        android:background="@drawable/join_button"
+        app:layout_constraintHeight_percent=".08"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Whats your favourite sport?"
+        ></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_second_question_reset_activity"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintHeight_percent=".1"
+        android:text="Verify"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:id="@+id/btn_verify_reset"
+
+        >
+
+    </Button>
+</androidx.constraintlayout.widget.ConstraintLayout>

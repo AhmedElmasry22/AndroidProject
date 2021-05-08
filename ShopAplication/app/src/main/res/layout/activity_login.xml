@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/image_logo_login"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/applogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="150dp"
+
+        ></ImageView>
+
+    <EditText
+        android:id="@+id/edit_textnumper_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/join_button"
+        android:textColor="@color/purple_200"
+        android:hint="Enter Numper"
+        android:textColorHint="@color/purple_200"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_logo_login"></EditText>
+
+
+    <EditText
+        android:id="@+id/edit_textpass_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/join_button"
+        android:textColor="@color/purple_200"
+        android:hint="Enter Passwarad"
+        android:textColorHint="@color/purple_200"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_textnumper_login">
+
+    </EditText>
+
+
+
+    <CheckBox
+        android:id="@+id/check_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_textpass_login"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/purple_200"
+        android:text="Remember me"
+        android:textSize="17sp"
+        >
+
+    </CheckBox>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Forget password"
+        android:textColor="@color/purple_200"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_textpass_login"
+        android:id="@+id/text_forget_login"
+        ></TextView>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttons"
+        android:layout_marginBottom="50dp"
+        android:textSize="18sp"
+        android:textColor="#ffff"
+        android:text="Login"
+
+        ></Button>
+    <TextView
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="23sp"
+        android:layout_marginRight="20sp"
+        android:textColor="@color/purple_200"
+        android:text="Iam admin"
+        android:layout_marginBottom="10dp"
+           ></TextView>
+
+    <TextView
+        android:id="@+id/not_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="23sp"
+        android:layout_marginRight="20sp"
+        android:textColor="@color/purple_200"
+        android:text="Not Admin"
+        android:layout_marginBottom="10dp"
+        android:visibility="invisible"
+        ></TextView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

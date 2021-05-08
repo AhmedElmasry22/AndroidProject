@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".RegestairActivity">
+
+
+
+    <ImageView
+        android:id="@+id/image_logo_register"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/applogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="150dp"
+
+        ></ImageView>
+    <EditText
+        android:id="@+id/edit_textname_register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/join_button"
+        android:textColor="@color/purple_200"
+        android:hint="Enter Numper"
+        android:textColorHint="@color/purple_200"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_logo_register"></EditText>
+
+
+    <EditText
+        android:id="@+id/edit_textnumper_register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/join_button"
+        android:textColor="@color/purple_200"
+        android:hint="Enter Numper"
+        android:textColorHint="@color/purple_200"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_textname_register"></EditText>
+
+
+    <EditText
+        android:id="@+id/edit_textpass_register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/join_button"
+        android:textColor="@color/purple_200"
+        android:hint="Enter Passwarad"
+        android:textColorHint="@color/purple_200"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_textnumper_register">
+
+    </EditText>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttons"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:textColor="#ffff"
+        android:text="Register"
+
+        ></Button>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

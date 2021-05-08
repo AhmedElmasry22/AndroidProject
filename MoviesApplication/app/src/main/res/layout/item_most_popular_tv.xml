@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#091ba1"
+        >
+
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_launcher_background"
+            android:id="@+id/image_movie_item_popular"
+
+            ></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/image_movie_item_popular"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="25sp"
+            android:textColor="#ffff"
+            android:text="Haaaa"
+            android:layout_margin="10dp"
+            android:id="@+id/text_name_movie"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/image_movie_item_popular"
+            app:layout_constraintTop_toBottomOf="@id/text_name_movie"
+            android:textSize="20sp"
+            android:textColor="#FFFF33"
+            android:text="Haaaa"
+            android:layout_margin="10dp"
+            android:id="@+id/text_country_movie"
+            ></TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

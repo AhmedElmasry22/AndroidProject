@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Setting">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/purple_200"
+        android:id="@+id/app_bar_setting"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_close_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="CLose"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/text_update_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Update "
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="200dp"
+
+                    ></TextView>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_image_setting"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile"
+        android:layout_gravity="center"
+
+        ></de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+
+        android:id="@+id/text_change_photo_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+
+        android:layout_marginEnd="10dp"
+        android:text="Change Profile"
+        android:layout_marginTop="10dp"
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/edit_name_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+
+        android:hint="Enter Name"
+        android:layout_marginTop="30dp"
+
+
+        >
+
+    </EditText>
+    <EditText
+        android:id="@+id/edit_pass_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:hint="Enter Name"
+        android:layout_marginTop="20dp"
+        >
+
+    </EditText>
+    <EditText
+        android:id="@+id/edit_address_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+
+        android:hint="Enter Address "
+        android:layout_marginTop="20dp"
+        >
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:textSize="20sp"
+        android:text="Set Question security"
+        android:textColor="@color/white"
+        android:id="@+id/btn_set_security_setting"
+        android:layout_margin="30dp"
+        >
+
+    </Button>
+</LinearLayout>

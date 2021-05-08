@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginSellerActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent=".3"
+        android:background="@drawable/sellerlogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/image_seller_login"
+
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_seller_login"
+        android:text="Seller Login"
+        android:textAlignment="center"
+        app:layout_constraintHeight_percent=".06"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#008000"
+        android:id="@+id/text_login_form"
+
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/edit_email_seller_login"
+        app:layout_constraintTop_toBottomOf="@id/text_login_form"
+        app:layout_constraintHeight_percent=".07"
+        android:hint="Enter Email..."
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/edit_pass_login_seller"
+        app:layout_constraintTop_toBottomOf="@id/edit_email_seller_login"
+        app:layout_constraintHeight_percent=".07"
+        android:hint="Enter Password"
+        android:textSize="15sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+
+        ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/btn_login_seller"
+        android:background="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_pass_login_seller"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:textSize="20sp"
+        app:layout_constraintHeight_percent=".07"
+
+        ></Button>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

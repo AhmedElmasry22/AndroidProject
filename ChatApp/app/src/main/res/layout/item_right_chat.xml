@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+
+
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/constrain_left"
+
+
+        >
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:padding="10dp"
+            android:background="#343328"
+            android:textSize="18sp"
+            android:text="aaaaaaaaaaaaaa"
+           android:textColor="@color/white"
+
+
+            android:layout_marginLeft="10dp"
+         android:id="@+id/text_messeg_right"
+
+            ></TextView>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/image_chat_right"
+            android:padding="5dp"
+            android:visibility="gone"
+
+
+
+
+            >
+
+
+        </ImageView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constrain_left"
+        android:textSize="15sp"
+        android:text="seen"
+        android:id="@+id/text_seen_left"
+        android:visibility="gone"
+        >
+
+    </TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
